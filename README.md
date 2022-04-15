@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/Assets/banner.png" title="Pokemon Absolute Logo" alt="Pokemon Absolute Logo" />
+  <img src="https://absoluterpg.com/images/Assets/banner.png" title="Pokemon Absolute Logo" alt="Pokemon Absolute Logo" />
   <h1 align="center">Pok&eacute;mon Absolute &mdash; Database</h1>
 </div>
 
@@ -9,198 +9,257 @@ This repository contains templated database structuring (and some necessary entr
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [`battle_logs`](#battle_logs)
-- [`clans`](#clans)
-- [`clan_donations`](#clan_donations)
-- [`clan_upgrades_data`](#clan_upgrades_data)
-- [`clan_upgrades_purchased`](#clan_upgrades_purchased)
-- [`direct_messages`](#direct_messages)
-- [`direct_message_groups`](#direct_message_groups)
-- [`evolution_data`](#evolution_data)
-- [`items`](#items)
-- [`item_dex`](#item_dex)
-- [`logs`](#logs)
-- [`map_encounters`](#map_encounters)
-- [`map_logs`](#map_logs)
-- [`moves`](#moves)
-- [`moves_flags`](#moves_flags)
-- [`navigation`](#navigation)
-- [`news`](#news)
-- [`notifications`](#notifications)
-- [`pages`](#pages)
-- [`pokedex`](#pokedex)
-- [`pokemon`](#pokemon)
-- [`released`](#released)
-- [`shops`](#shops)
-- [`shop_items`](#shop_items)
-- [`shop_logs`](#shop_logs)
-- [`shop_pokemon`](#shop_pokemon)
-- [`staff_logs`](#staff_logs)
-- [`trades`](#trades)
-- [`users`](#users)
-- [`user_bans`](#user_bans)
-- [`user_currency`](#user_currency)
-- [`user_login_attempts`](#user_login_attempts)
-- [`user_passwords`](#user_passwords)
-- [`user_permissions`](#user_permissions)
-- [`user_reports`](#user_reports)
-- [`user_stats`](#user_stats)
+- [Battle Logs](#battle-logs)
+- [Clans](#clans)
+- [Clan Donations](#clan-donations)
+- [Clan Upgrade Data](#clan-upgrade-data)
+- [Clan Upgrades Purchased](#clan-upgrades-purchased)
+- [Direct Messages](#direct-messages)
+- [Direct Message Groups](#direct-message-groups)
+- [Evolution Data](#evolution-data)
+- [Items](#items)
+- [Item Dex](#item-dex)
+- [Logs](#logs)
+- [Map Encounters](#map-encounters)
+- [Map Logs](#map-logs)
+- [Moves](#moves)
+- [Move Flags](#move-flags)
+- [Navigation](#navigation)
+- [News](#news)
+- [Notifications](#notifications)
+- [Pages](#pages)
+- [Pokedex](#pokedex)
+- [Pokemon](#pokemon)
+- [Released Pok&eacute;mon](#released-pokémon)
+- [Shops](#shops)
+- [Shop Items](#shop-items)
+- [Shop Logs](#shop-logs)
+- [Shop Pok&eacute;mon](#shop-pokémon)
+- [Staff Logs](#staff-logs)
+- [Trades](#trades)
+- [Users](#users)
+- [User Bans](#user-bans)
+- [User Currency](#user-currency)
+- [User Login Attempts](#user-login-attempts)
+- [User Passwords](#user-passwords)
+- [User Permissions](#user-permissions)
+- [User Reports](#user-reports)
+- [User Stats](#user-stats)
 
 
 
-## `battle_logs`
-**Structure Only**
+## Battle Logs
+**Table Name**: `battle_logs`<br />
+**Table Contains**: Structuring<br />
 
 Contains data in the form of logs of completed battles done by users.
 
-## `clans`
-**Structure Only**
+## Clans
+**Table Name**: `clans`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all created clans.
 
-## `clan_donations`
-**Structure Only**
+## Clan Donations
+**Table Name**: `clan_donations`<br />
+**Table Contains**: Structuring<br />
 
 Contains data in the form of logs of all currencies donated to each clan.
 
-## `clan_upgrades_data`
+## Clan Upgrade Data
+**Table Name**: `clan_upgrades_data`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains all data regarding possible upgrades that a clan may get.
 
-## `clan_upgrades_purchased`
-**Structure Only**
+## Clan Upgrades Purchased
+**Table Name**: `clan_upgrades_purchased`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all clan upgrades purchased by each clan.
 
-## `direct_messages`
-**Structure Only**
+## Direct Messages
+**Table Name**: `direct_messages`<br />
+**Table Contains**: Structuring<br />
 
 Stores the messages sent between users.
 
-## `direct_message_groups`
-**Structure Only**
+## Direct Message Groups
+**Table Name**: `direct_message_groups`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all active direct message groups.
 
-## `evolution_data`
+## Evolution Data
+**Table Name**: `evolution_data`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains all data regarding each Pok&eacute;mon and their evolutions.
 
-## `items`
-**Structure Only**
+## Items
+**Table Name**: `items`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all items that users have obtained in game.
 
-## `item_dex`
+## Item Dex
+**Table Name**: `item_dex`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains all data regarding each item.
 
-## `logs`
-**Structure Only**
+## Logs
+**Table Name**: `logs`<br />
+**Table Contains**: Structuring<br />
 
 General purpose logs; currently used for logging what pages each user visits.
 
-## `map_encounters`
+## Map Encounters
+**Table Name**: `map_encounters`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains the data of all Pok&eacute;mon that can be found via the maps.
 
-## `map_logs`
-**Structure Only**
+## Map Logs
+**Table Name**: `map_logs`<br />
+**Table Contains**: Structuring<br />
 
 Logs of all Pok&eacute;mon that were caught on the maps by each user.
 
-## `moves`
+## Moves
+**Table Name**: `moves`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains all data regarding each move.
 
-## `moves_flags`
+## Move Flags
+**Table Name**: `moves_flags`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains flags for all moves that are needed by the battle system.
 
-## `navigation`
+## Navigation
+**Table Name**: `navigation`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains all of the headers and links needed to render the navigation bar.
 
-## `news`
-**Structure Only**
+## News
+**Table Name**: `news`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all submitted news posts.
 
-## `notifications`
-**Structure Only**
+## Notifications
+**Table Name**: `notifications`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all sent notifications that each user has received.
 
-## `pages`
+## Pages
+**Table Name**: `pages`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Stores data on all pages on the site. Critical for managing the user-permission system, for putting pages into maintenance, and for preventing certain pages from being accessed while logged out.
 
-## `pokedex`
+## Pokedex
+**Table Name**: `pokedex`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains the data for each Pok&eacute;mon's Pok&eacute;dex entries.
 
-## `pokemon`
-**Structure Only**
+## Pokemon
+**Table Name**: `pokemon`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of every Pok&eacute;mon obtained by each user.
 
-## `released`
-**Structure Only**
+## Released Pok&eacute;mon
+**Table Name**: `released`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of every Pok&eacute;mon that has been released.
 
-## `shops`
+## Shops
+**Table Name**: `shops`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains the data of all available shops.
 
-## `shop_items`
+## Shop Items
+**Table Name**: `shop_items`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains the data of all items available for purchase in the shops.
 
-## `shop_logs`
-**Structure Only**
+## Shop Logs
+**Table Name**: `shop_logs`<br />
+**Table Contains**: Structuring<br />
 
 Stores logs of all items and Pok&eacute;mon bought by each user.
 
-## `shop_pokemon`
+## Shop Pok&eacute;mon
+**Table Name**: `shop_pokemon`<br />
+**Table Contains**: Structuring &amp; Data<br />
+
 Contains the data of all Pok&eacute;mon available for purcahse in the shops.
 
-## `staff_logs`
-**Structure Only**
+## Staff Logs
+**Table Name**: `staff_logs`<br />
+**Table Contains**: Structuring<br />
 
 Stores logs of all actions performed on the staff panel.
 
-## `trades`
-**Structure Only**
+## Trades
+**Table Name**: `trades`<br />
+**Table Contains**: Structuring<br />
 
 Stores logs of all trades done by users.
 
-## `users`
-**Structure Only**
+## Users
+**Table Name**: `users`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all registered users.
 
-## `user_bans`
-**Structure Only**
+## User Bans
+**Table Name**: `user_bans`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of all currently banned users.
 
-## `user_currency`
-**Structure Only**
+## User Currency
+**Table Name**: `user_currency`<br />
+**Table Contains**: Structuring<br />
 
 Stores the currency data of all users.
 
-## `user_login_attempts`
-**Structure Only**
+## User Login Attempts
+**Table Name**: `user_login_attempts`<br />
+**Table Contains**: Structuring<br />
 
 Stores logs of all attempted logins.
 
-## `user_passwords`
-**Structure Only**
+## User Passwords
+**Table Name**: `user_passwords`<br />
+**Table Contains**: Structuring<br />
 
 Stores the encrypted password of each user.
 
-## `user_permissions`
-**Structure Only**
+## User Permissions
+**Table Name**: `user_permissions`<br />
+**Table Contains**: Structuring<br />
 
 Stores the site permissions of each user.
 
-## `user_reports`
-**Structure Only**
+## User Reports
+**Table Name**: `user_reports`<br />
+**Table Contains**: Structuring<br />
 
 Stores the logs of all reports made on users.
 
-## `user_stats`
-**Structure Only**
+## User Stats
+**Table Name**: `user_stats`<br />
+**Table Contains**: Structuring<br />
 
 Stores the data of stats by each user.
-
