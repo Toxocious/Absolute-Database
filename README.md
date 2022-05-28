@@ -10,6 +10,7 @@ This repository contains templated database structuring (and some necessary entr
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Battle Logs](#battle-logs)
+- [Chat Logs](#chat-logs)
 - [Clans](#clans)
 - [Clan Donations](#clan-donations)
 - [Clan Upgrade Data](#clan-upgrade-data)
@@ -53,6 +54,12 @@ This repository contains templated database structuring (and some necessary entr
 **Table Contains**: Structuring<br />
 
 Contains data in the form of logs of completed battles done by users.
+
+## Chat Logs
+**Table Name**: `chat_logs`<br />
+**Table Contains**: Structuring<br />
+
+Contains data in the form of logs of chat messages that have been sent by users via the sidebar chat element.
 
 ## Clans
 **Table Name**: `clans`<br />
